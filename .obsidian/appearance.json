@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Typomagical",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "Baskerville",
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "baseFontSize": 15,
+  "accentColor": "#404c85",
+  "theme": "obsidian"
+}

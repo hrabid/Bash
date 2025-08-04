@@ -1,0 +1,12 @@
+{
+  "pinned": [
+    "editor:save-file",
+    "workspace:goto-tab-1",
+    "workspace:goto-tab-2",
+    "workspace:goto-tab-3",
+    "app:open-settings",
+    "editor:insert-footnote",
+    "markdown:add-metadata-property",
+    "editor:insert-codeblock"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "plugins": {
+      "obsidian-annotator": {
+        "startupType": "disabled"
+      },
+      "code-styler": {
+        "startupType": "instant"
+      },
+      "dataview": {
+        "startupType": "instant"
+      },
+      "obsidian-excalidraw-plugin": {
+        "startupType": "instant"
+      },
+      "obsidian-git": {
+        "startupType": "instant"
+      },
+      "obsidian-icon-folder": {
+        "startupType": "instant"
+      },
+      "make-md": {
+        "startupType": "instant"
+      }
+    }
+  }
+}

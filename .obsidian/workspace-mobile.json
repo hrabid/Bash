@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "96fd2a89150345ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3d748c2f9bb6d49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02bedb9fee334560",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Inbox/Terminal Set up of Mischa Van Den Burg.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Terminal Set up of Mischa Van Den Burg"
+            }
+          },
+          {
+            "id": "9c84c9b85627d34d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scripting/Bash.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bash"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a70560b65918306",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "92b3bc1479987eff",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": true
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "a0072490aef2add1",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Vim",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "271a57dc183e9965",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "6f09fc9401491d24",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "00e6ca589481854f",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "70a832eefa7c142e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fcbc2571ebaad006",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Glossery/Env Config.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "2eecb8f4648408ea",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Glossery/Env Config.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "b2e5defc3c01e9cb",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "00 Inbox/Resources Hub/Bash Scripting.md",
+            "followCursor": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "workspaces:Manage workspace layouts": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "9c84c9b85627d34d",
+  "lastOpenFiles": [
+    "Resources.md",
+    "README.md",
+    "00 Inbox/Resources Hub/Attachments/IMG_20250804_083817.jpg",
+    "00 Inbox/Resources Hub/Attachments",
+    "00 Inbox/Docker Cheatsheet.md",
+    "00 Inbox/Terminal Set up of Mischa Van Den Burg.md",
+    "00 Inbox/Resources Hub/Bash Scripting.md",
+    "Administration/Command Line Interface/Vim/Vim Cheat Sheet.md",
+    "00 Inbox/Python Libraries.md",
+    "Administration/Storage Administration/Logical Volume Manager/LVM.md",
+    "Administration/Storage Administration/Backup & Sync/rclone/rclone.md",
+    "Administration/Storage Administration/Backup & Sync/rclone/rclone bisync.md",
+    "Administration/Storage Administration/Backup & Sync/rclone/rclone copy.md",
+    "Administration/Storage Administration/Backup & Sync/rclone/How These Work.md",
+    "Administration/Basics of Administration/Archive & Compression/Archive.md",
+    "Administration/Basics of Administration/Archive & Compression/Compression.md",
+    "Administration/Basics of Administration/Archive & Compression/lzma.md",
+    "Administration/Basics of Administration/Archive & Compression/xz.md",
+    "Administration/Basics of Administration/Archive & Compression/7zip.md",
+    "Administration/Basics of Administration/Archive & Compression/bzip2.md",
+    "Administration/Basics of Administration/Archive & Compression/gzip.md",
+    "Administration/Basics of Administration/Archive & Compression/tar.md",
+    "01 Linux OS/Package Manager/Universal Package Manager/app/Options & flags.md",
+    "Administration/Basics of Administration/Archive & Compression",
+    "01 Linux OS/Package Manager/Universal Package Manager/app/App.md",
+    "Administration/Basics of Administration/System Navigation/touch.md",
+    "Administration/Basics of Administration/System Navigation/touch.md",
+    "Administration/Basics of Administration/System Navigation/mkdir.md",
+    "00 Inbox/TOML.md",
+    "01 Linux OS/File System/File-System Hierarchy Standard(FHS)/Attachments/Screenshot_2025-07-25-22-35-17-33_96b26121e545231a3c569311a54cda96.jpg",
+    "01 Linux OS/File System/File-System Hierarchy Standard(FHS)/Attachments/Screenshot_2025-07-25-20-37-28-20.jpg",
+    "01 Linux OS/File System/File-System Hierarchy Standard(FHS)/Attachments",
+    "01 Linux OS/File System/File System",
+    "Administration/System Monitoring/Process Management/Process",
+    "Administration/System Monitoring/Process & Rescue Management/Untitled",
+    "Administration/System Monitoring/Process Management/Process Control",
+    "01 Linux OS/Shell/Bash/Attachments/Screenshot_2025-07-25-16-37-22-41.jpg",
+    "01 Linux OS/Shell/Bash/Attachments",
+    "Administration/Security/Permissions/Attachments/Screenshot_2025-07-24-20-41-02-39.jpg",
+    "Administration/Security/Permissions/Attachments",
+    "00 Inbox/Linux Customization",
+    "Attachements/Pasted image 20250615085148.png",
+    "Administration/Containerization/Docker/00 Docker/Attachments/Pasted image 20250520200428.jpg",
+    "Administration/Containerization/Docker/00 Docker/Attachments/Pasted image 20250520182918.jpg",
+    "Administration/Software/SDLC/Attachments/vlc_20250611_194252.jpg",
+    "Administration/Software/SDLC/Attachments/vlc_20250611_193217.jpg",
+    "Administration/Command Line Interface/dotfiles/Untitled.canvas",
+    "Untitled.canvas"
+  ]
+}
