@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scripting/Bash.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bash"
+              "title": "README"
             }
           }
         ],
@@ -209,8 +209,11 @@
   },
   "active": "9c84c9b85627d34d",
   "lastOpenFiles": [
-    "Resources.md",
+    "scripting/Bash.md",
     "README.md",
+    "Attachments/Bash_(Unix_shell)-Logo.wine.png",
+    "Attachments",
+    "Resources.md",
     "00 Inbox/Resources Hub/Attachments/IMG_20250804_083817.jpg",
     "00 Inbox/Resources Hub/Attachments",
     "00 Inbox/Docker Cheatsheet.md",
@@ -236,8 +239,6 @@
     "01 Linux OS/Package Manager/Universal Package Manager/app/App.md",
     "Administration/Basics of Administration/System Navigation/touch.md",
     "Administration/Basics of Administration/System Navigation/touch.md",
-    "Administration/Basics of Administration/System Navigation/mkdir.md",
-    "00 Inbox/TOML.md",
     "01 Linux OS/File System/File-System Hierarchy Standard(FHS)/Attachments/Screenshot_2025-07-25-22-35-17-33_96b26121e545231a3c569311a54cda96.jpg",
     "01 Linux OS/File System/File-System Hierarchy Standard(FHS)/Attachments/Screenshot_2025-07-25-20-37-28-20.jpg",
     "01 Linux OS/File System/File-System Hierarchy Standard(FHS)/Attachments",
@@ -249,12 +250,10 @@
     "01 Linux OS/Shell/Bash/Attachments",
     "Administration/Security/Permissions/Attachments/Screenshot_2025-07-24-20-41-02-39.jpg",
     "Administration/Security/Permissions/Attachments",
-    "00 Inbox/Linux Customization",
     "Attachements/Pasted image 20250615085148.png",
     "Administration/Containerization/Docker/00 Docker/Attachments/Pasted image 20250520200428.jpg",
     "Administration/Containerization/Docker/00 Docker/Attachments/Pasted image 20250520182918.jpg",
     "Administration/Software/SDLC/Attachments/vlc_20250611_194252.jpg",
-    "Administration/Software/SDLC/Attachments/vlc_20250611_193217.jpg",
     "Administration/Command Line Interface/dotfiles/Untitled.canvas",
     "Untitled.canvas"
   ]
