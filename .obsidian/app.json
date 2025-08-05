@@ -33,7 +33,7 @@
     "editor:insert-footnote",
     "command-palette:open"
   ],
-  "attachmentFolderPath": "./Attachments",
+  "attachmentFolderPath": "./assets",
   "newLinkFormat": "relative",
   "strictLineBreaks": true
 }
