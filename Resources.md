@@ -1,15 +1,6 @@
-# Tutorial
-
-- [Linuxopsys](https://linuxopsys.com/bash-scripting-essentials)
-- [gregswiki](https://mywiki.wooledge.org/BashGuide)
-- [wiki.bash-hackers.org](https://web.archive.org/web/20230406205817/https://wiki.bash)
-
 # Books
-
 - Linux Command Line & Shell Scripting Bible
 - Unix & Linux System Administration Handbook
-
-# *Websites*
 
 ## Documentation
 
@@ -27,6 +18,10 @@
 - [Ryan's Tutorial](https://ryanstutorials.net/bash-scripting-tutorial/)
 - [w3Schools](https://www.w3schools.com/bash/index.php)
 - [guide.bash.academy](https://guide.bash.academy/)
+- [Linuxopsys](https://linuxopsys.com/bash-scripting-essentials)
+- [gregswiki](https://mywiki.wooledge.org/BashGuide)
+- [wiki.bash-hackers.org](https://web.archive.org/web/20230406205817/https://wiki.bash)
+
 
 ## Cheatsheet
 
@@ -89,7 +84,7 @@
 
 # Coursera
 
-![[Attachments/IMG_20250804_083817.jpg]]
+
 
 [^1]: <https://youtu.be/tK9Oc6AEnR4?si=oVubmNpbldCitf-K>
 [^2]: <https://youtube.com/playlist?list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w&si=IvzHnM9pTeiJZ2py>

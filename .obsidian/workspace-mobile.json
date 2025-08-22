@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Resources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Resources"
             }
           }
         ],
@@ -207,10 +207,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9c84c9b85627d34d",
+  "active": "92b3bc1479987eff",
   "lastOpenFiles": [
-    "scripting/Bash.md",
     "README.md",
+    "scripting/Bash.md",
     "Attachments/Bash_(Unix_shell)-Logo.wine.png",
     "Attachments",
     "Resources.md",
