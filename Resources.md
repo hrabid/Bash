@@ -77,6 +77,12 @@
 
 - [Linux Shell Scripting in one vid
 ](https://youtu.be/FL7K2A2KH7g?si=H1dcYhzxYFeF69Q3)
+### You suck at Programming 
+- [You Suck at Programming](https://youtube.com/playlist?list=PL-my9REMIFtEsQv2rezRY7E9Ih9nmJ2TZ&si=lxFp7lGk3wiFhnT7)
+- [Pure Bash](https://youtube.com/playlist?list=PL-my9REMIFtFmvHp6YMnlDCfCoXdbppQJ&si=EOrVVzYJFJBlq1W8) 
+
+### Network Chuck 
+- [You need to learn bash now](https://youtube.com/playlist?list=PLIhvC56v63IKioClkSNDjW7iz-6TFvLwS&si=WbGkSOoYnF_88CTV)
 
 # Certification
 

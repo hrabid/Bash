@@ -5,9 +5,14 @@ The executable bash binary
 
 ####  `~/.bash_profile`
 
+#### `/etc/bash.bashrc`
+
 ####  `~/.bashrc`
 
+#### `/etc/bash.bash_logout`
+
 #### `~/.bash_logout`
+
 
 #### `~/.bash_history`
 

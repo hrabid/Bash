@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources.md",
+                "file": "scripting/Shell Builtin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Resources"
+              "title": "Shell Builtin"
             }
           }
         ],
@@ -194,6 +194,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -207,13 +208,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "92b3bc1479987eff",
+  "active": "9c84c9b85627d34d",
   "lastOpenFiles": [
+    "scripting/Keywords.md",
+    "scripting/Configuration Files.md",
+    "Resources.md",
     "README.md",
     "scripting/Bash.md",
     "Attachments/Bash_(Unix_shell)-Logo.wine.png",
     "Attachments",
-    "Resources.md",
     "00 Inbox/Resources Hub/Attachments/IMG_20250804_083817.jpg",
     "00 Inbox/Resources Hub/Attachments",
     "00 Inbox/Docker Cheatsheet.md",
@@ -237,7 +240,6 @@
     "01 Linux OS/Package Manager/Universal Package Manager/app/Options & flags.md",
     "Administration/Basics of Administration/Archive & Compression",
     "01 Linux OS/Package Manager/Universal Package Manager/app/App.md",
-    "Administration/Basics of Administration/System Navigation/touch.md",
     "Administration/Basics of Administration/System Navigation/touch.md",
     "01 Linux OS/File System/File-System Hierarchy Standard(FHS)/Attachments/Screenshot_2025-07-25-22-35-17-33_96b26121e545231a3c569311a54cda96.jpg",
     "01 Linux OS/File System/File-System Hierarchy Standard(FHS)/Attachments/Screenshot_2025-07-25-20-37-28-20.jpg",
