@@ -1,0 +1,10 @@
+#!/usr/bin/env -S head -4
+
+this 
+is
+a shell 
+script 
+that tells
+the kernel
+to interprete the script
+using head
