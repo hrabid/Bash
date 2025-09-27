@@ -4,5 +4,9 @@ Bourne-Again Shell.
 An sh compatible command language interpreter that can read & execute from standard output or a file.
 
 ## Installation
-It’s just the default shell of the most of the Unix/Linux Distribution. 
+It’s just the default shell of the most of the Unix/Linux Distribution.
+
+## Usecase 
+- automating repitative/frequently used commands 
+
 
