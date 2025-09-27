@@ -10,3 +10,5 @@ It’s just the default shell of the most of the Unix/Linux Distribution.
 - automating repitative/frequently used commands 
 
 
+
+
