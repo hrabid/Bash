@@ -1,6 +1,7 @@
+#!/usr/bin/env bash
 get_name() {
   read -r NAME
-  echo $NAME
+  echo "$NAME"
 }
 
 echo "My name is $(get_name)"
