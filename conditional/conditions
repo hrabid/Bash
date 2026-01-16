@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+count=90
+
+if [ $count -eq 10 ]; then
+  echo "the value of the variable count is 10"
+else
+  echo "the value of the variable count is not 10"
+fi
+
+a=5
+b=5
+if [[ $a == $b ]]; then
+  echo "variable a & b is equal"
+else
+  echo "variable a & b is not equal"
+fi
+
+c=5
+d=6
+if [[ $c != $d ]]; then
+  echo "variable c & d is not equal"
+else
+  echo "variable c & d is equal"
+fi
+
+# check if a file exist
+if [[ -f "file.txt" ]]; then
+  echo "the file existed"
+
+fi

@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+# for name in $@; do
+#   ./hello "$name"
+# done
+
+#greet() {
+#  if [[ -n $1 ]]; then
+#    name=$1
+#  else
+#    read -p "Enter Your name: " name
+#  fi
+#  echo "Your Name is: $name"
+#}
+#greet
+
+#greet() {
+#  local name=$1
+#  echo "Hello $name [from func]"
+#}
+
+#greet() {
+#  local name=$1
+#  echo "Hello $name"
+#}
+#
+#for name in "$@"; do
+#  greet "$name" >>file.txt # it is possible to redirect a function into a file
+#
+#done
+#
+#var=$(greet dave) # also possible to store it on a variable
+#echo "var is $var"
+
+# return type in functions
+greet() {
+  local name=$1
+  echo "Hello $name"
+  return 0 # any numbee higher than 0 will be an error or unsuccessful
+}
+
+for name in "$@"; do
+  greet "$name"
+done
+
+echo $?
