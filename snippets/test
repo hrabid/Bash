@@ -90,7 +90,7 @@ else
   echo "file.txt doesn't exists"
 fi
 
-if [[ -f "/dev/nul" ]]; then
+if [[ -f "/dev/null" ]]; then
   echo "/dev/null is exists & it's a regular file"
 else
   echo "/dev/null is not a regular file (even if it exists)"
@@ -110,7 +110,7 @@ if [[ -c "/dev/null" ]]; then
 fi
 
 # check if the file is symbolic link
-if [[ -Lf "symlink.txt" ]]; then
+if [[ -L "symlink.txt" ]]; then
   echo "symlink.txt exists & it's a symbolic link"
 else
   echo "symlink.txt is not a symlink"

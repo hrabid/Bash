@@ -27,5 +27,4 @@ fi
 # check if a file exist
 if [[ -f "file.txt" ]]; then
   echo "the file existed"
-
 fi
