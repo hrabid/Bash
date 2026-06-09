@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+words=$(grep d /usr/share/dict/cracklib-small)

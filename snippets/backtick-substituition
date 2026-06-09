@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo backticks
+whoami
+echo `whoami`
+echo `echo \`whoami\``
+echo `echo \`echo \\\`whoami\\\`\``
+

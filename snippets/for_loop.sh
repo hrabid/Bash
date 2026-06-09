@@ -11,6 +11,31 @@
 #   echo "thing is $thing"
 # done
 
-for args in "$@"; do
-  echo "Arguments are $args"
+# for args in "$@"; do
+#   echo "Arguments are $args"
+# done
+
+# looping through some ranges in bash
+
+# for letter in {a..z}; do
+#   echo "$letter"
+# done
+#
+# for letter in {A..Z}; do
+#   echo "$letter"
+# done
+#
+# for letter in {1..100}; do
+#   echo "$letter"
+# done
+
+# this variable expansion is invalid
+# max=15
+# for num in "{1..$max}"; do
+#   echo "$num"
+# done
+
+max=15
+for ((i = 0; i <= max; i++)); do
+  echo "$i"
 done

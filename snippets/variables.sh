@@ -17,6 +17,8 @@ echo ${greet}
 echo $greet # by default white space is reemoved if not  encapsulated by ""
 echo "$greet"
 
+echo "lenth of greet: ${#greet}"
+
 echo "The price of Apple is \$47" # backslash "\" is used to escape special character meaning
 
 apple_price=5
@@ -27,5 +29,5 @@ echo "The price of Apple is \$${apple_price}"
 # - Back-tick : `command`
 # - using : $(command)
 
-echo `date`
+echo $(date)
 echo $(date)

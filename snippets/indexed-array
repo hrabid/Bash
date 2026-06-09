@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+
+array=(foo bar baz)
+echo "$array"   # the classical variable expansion only prints the first item of an array
+echo "${array}" # this also expands the same way
+
+echo "--------------"
+
+echo "0: ${array[0]}"
+echo "1: ${array[1]}"
+echo "2: ${array[2]}"
+echo "3: ${array[3]}"
+
+echo "--------------"
+
+echo "-1: ${array[-1]}"
+echo "-2: ${array[-2]}"
+echo "-3: ${array[-3]}"
+
+echo "--------------"
+
+idx=2
+echo "idx: ${array[$idx]}"
+echo "idx: ${array[idx]}" # also valid
+
+echo "--------------"
+
+echo "*: ${array[*]}"
+echo "@: ${array[@]}"
+# both * and @ notation prints the entire array, but * notation treats all items of the array as single item, but @ notation don't do that, let's see what if we can iterate over them
+
+echo "--------------"
+for item in "${array[*]}"; do
+  echo "item is: $item"
+done
+
+for item in "${array[@]}"; do
+  echo "item is: $item"
+done
+
+echo "--------------"
+# pre caution: dropping quotes will be okey at first glance, but when there will be a unique item in array let's say a quoted string with multiple words in it, unquoted syntax will treat every one of the word inside quoted string as an item of the array
+
+array=(
+  foo
+  bar
+  baz
+  'hello friends'
+)
+for item in ${array[@]}; do
+  echo "item is: $item"
+done
+
+echo "--------------"
+# alternative way of declaring an indexed array
+declare -a array=(
+  foo
+  bar
+  baz
+)
+# also possible, first initialize the array then declare it
+declare -a array
+array=(
+  foo
+  bar
+  baz
+)
+echo "--------------"
+
+# copying an array
+first_array=(
+  foo
+  bar
+  baz
+)
+
+second_array=("${first_array[@]}")
+# second_array=("${first_array[@]}" buddy guy) # also possible
+second_array+=(buddy guy joe)
+
+for item in "${second_array[@]}"; do
+  echo "item is : $item"
+done
+
+echo "--------------"
+declare -p second_array
+second_array=([0]="foo" [1]="bar" [2]="baz" [3]="buddy" [4]="guy" [5]="jo
+e" [45]="theo")
+
+echo "lenth: ${#second_array[@]}"
+echo "lenth of an item: ${#second_array[5]}"

@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# thing='whoami'
+# thing=`whoami`
+# echo "i am $thing"
+# forget the backtick syntax
+
+# TO DO : experiment the command-substitutions using backticks and nesting them
+
+# we'll use $() syntax
+# echo $(whoami)
+# echo $(echo $(whoami))
+# echo $(echo $(echo $(whoami)))
+
+num=10
+
+myfunc() {
+  num=5
+  echo "hello, i am from myfunc() functions"
+}
+
+# thing=$(myfunc) # this thing is running in a subshell, thus the num variable is not reassigned
+
+thing=${ myfunc;} # thats an alternative syntax, introduced in bash 5.3, this doesn't run in a subshell, so the num variable is overridden
+echo "the function is $thing"
+echo "the num is $num"

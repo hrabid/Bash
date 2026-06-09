@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+
+# name=$1
+
+# case "$name" in
+# dave)
+#   echo "hello dave"
+#   ;;
+# buddy)
+#   echo "hello buddy"
+#   ;;
+# guy)
+#   echo "goodbuy guy"
+#   ;;
+# *)
+#   echo "idk who you are"
+#   ;;
+# esac
+
+# case "$name" in
+# dave) echo "hello you are dave" ;;
+# buddy) echo "hello, you are buddy" ;;
+# guy) echo "hello, you are the guy" ;;
+# *) echo "idk who you are" ;;
+# esac
+
+# for name in "$@"; do
+#   case "$name" in
+#   b*) echo "hello, you are $name" ;;
+#   d*) echo "hello, you are $name" ;;
+#   *) echo "hello, idk who you are" ;;
+#   esac
+# done
+
+# for name in "$@"; do
+#   case "$name" in
+#   b* | d*) echo "hello, you are $name" ;;
+#   *) echo "hello, idk who you are" ;;
+#   esac
+# done
+
+# if there is two case matched the case statement only gonna pick first one and break, rest of the matching is ignored
+name="dave"
+case "$name" in
+d*) echo "matched d*" ;;
+dave) echo "matched dave" ;;
+esac
+
+# there is alternative syntax for multiple matchings
+name="foo"
+case "$name" in
+d*) echo "matched d*" ;&
+dave) echo "matched dave" ;&
+f*) echo "matched f*" ;&
+foo) echo "matched foo" ;&
+*) echo "matched *" ;&
+esac
+
+# there is another alternative syntax for multiple matchings
+name="dave"
+case "$name" in
+d*) echo "matched d*" ;;&
+dave) echo "matched dave" ;;&
+f*) echo "matched f*" ;;&
+foo) echo "matched foo" ;;&
+*) echo "matched *" ;;&
+esac

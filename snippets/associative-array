@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+# python: dictionary, js: objects, rust: hashmaps
+
+# associative array was introduced in bash 4.0, anything older than 4.0 don't have associative array
+if ! declare -a array; then
+  echo "uh oh, associative array is not available!"
+  exit 1
+fi
+
+declare -A arr
+arr[foo]=1
+arr[bar]=2
+arr[baz]=3
+
+echo "${arr[foo]}"
+echo "${arr[bar]}"
+echo "${arr[baz]}"
+echo "${arr[fake]}"
+echo "-------------"
+
+echo "${arr[@]}"
+echo "${arr[*]}"
+
+echo "-------------"
+
+echo "${!arr[*]}"
+
+echo "-------------"
+for key in "${!arr[@]}"; do
+  echo "key is $key"
+done
+
+echo "-------------"
+for key in "${!arr[@]}"; do
+  value=${arr[$key]}
+  echo "key is $key, value is $value"
+done

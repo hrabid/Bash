@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# IFS stands for Internal Field Separator
+
+array=(
+  foo
+  bar
+  baz
+  "hello guys"
+)
+
+# the scripts inside parentheses () just create a subshell, so the IFS variable is changed only for the block of code, once the code block in complete other part of codebase is not effected by the IFS variable
+
+(
+  IFS=,
+  echo "array is : ${array[*]}"
+)
+
+(
+  IFS=,
+  echo "array is : ${!array[*]}"
+)
